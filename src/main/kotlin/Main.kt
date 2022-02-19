@@ -25,6 +25,11 @@ val s =("asdfghjk").toCharArray()
 
     reverseString(s)
 
+    val num1  = intArrayOf(10,5,0,1,9,2,3,6,8)
+    rotate(num1, 4)
+
+    val num2  = intArrayOf(9,5,0,1,9,2,3,6,7)
+    println(message = "${containsDuplicate(num2)}")
 
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
